@@ -33,7 +33,6 @@
   </target>
   
   <target name="build" depends="build-project,build-war" />
-  
   <target name="cleanall" depends="clean" />
   
   <target name="build-project" depends="init">
